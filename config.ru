@@ -2,8 +2,4 @@
 
 require_relative 'config/environment'
 
-Rails.application.routes.draw do
-    root 'cars#index'
-    resources :cars
-  end
-  
+run Rails.application
